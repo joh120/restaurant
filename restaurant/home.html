@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamma Mia Pizzeria </title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body style="background-color: aliceblue;">
+    <header>
+        <h1 class="center"><i><u>Mamma Mia Pizzeria</u></i></h1>
+        <img src="images/margherita pizza.jpg" width=" 300"> <i>Authentic Italian Cuisine!</i>
+        
+        <nav><a href="home.html">Home</a>
+            <a href="menu.html" target="_blank">Menu</a>
+            <a href="about.html"target="_blank">About</a>
+            <a href="contact.html"target="_blank">Contact</a>
+        </nav>
+    </header>
+<main">
+
+<h2>Welcome to Mamma Mia Pizzeria !</h2>
+<img src="images/rome at night.jpg">
+<pre>
+
+<i>All throughout the Christmas season 2 for 1 specials with be introduced on all our main dishes as well as many other great deals.
+So be on the look out !</i>
+
+<img src="images/2 for 1.jpg">
+<img src="images/christmas.jpg" width="225">
+    
+    </pre>
+
+<h3><u><i>Reservation Form</i></u></h3>
+
+<form>
+    <form action="index.php" method="post">
+
+        <label for="name"> Name </label>
+        <input type="text" id="name" placeholder="first and last name" minlength="6" maxlength="12"> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="your email"> <br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> <br>
+      
+
+        <label for="date"> Date:</label>
+        <input type="date" id="date"> <br>
+      
+        <label for="quantity">Number of people:</label>
+        <input type="number" id="quantity" min="0" max="99" value> 
+
+<br>
+
+        <label for="payment.">Payment:</label>
+        <select id="payment">
+        <option value="visa">visa</option>
+        <option value="mastercard">mastercard</option>
+        <option value="giftcard">giftcard</option>
+        </select>
+<br>
+
+        <label for="subscribe">Subscribe for lastest news and deals:</label>
+
+        <input type="checkbox" id="subscribe">
+        <br>
+
+        <label for="comment">Comment: </label>
+        <textarea id="comment" rows="3" cols="25"> </textarea>
+
+        <br><br>
+
+        <input type="submit">
+        <input type="reset">
+
+
+
+
+        </form>
+
+</main>
+<br>
+
+
+<footer>
+    
+    <h5><i>author: Mamma Mia Pizzeria </i> <br>
+        facebook: MammaMiaPzzzzz <br>
+     <i>&copy; copyright reserved</i><br></h5>
+ </footer>
+
+
+</body>
+</html>
